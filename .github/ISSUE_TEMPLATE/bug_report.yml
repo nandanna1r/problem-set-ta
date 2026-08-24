@@ -1,0 +1,36 @@
+name: Behavior bug
+description: Report behavior that contradicts the skill contract
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt or problem
+      description: Remove personal, course-private, or copyrighted material you cannot share.
+    validations:
+      required: true
+  - type: dropdown
+    id: host
+    attributes:
+      label: Host
+      options:
+        - ChatGPT
+        - Codex
+        - Claude.ai
+        - Claude Code
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true

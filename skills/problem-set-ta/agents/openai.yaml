@@ -1,0 +1,4 @@
+interface:
+  display_name: "Problem-Set TA"
+  short_description: "Source-grounded quantitative office hours"
+  default_prompt: "Use $problem-set-ta to initialize an office-hours session for my quantitative course."

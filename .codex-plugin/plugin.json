@@ -1,0 +1,35 @@
+{
+  "name": "problem-set-ta",
+  "version": "0.1.0",
+  "description": "A source-grounded office-hours TA for quantitative problem sets.",
+  "author": {
+    "name": "nandanna1r",
+    "url": "https://github.com/nandanna1r"
+  },
+  "homepage": "https://github.com/nandanna1r/problem-set-ta#readme",
+  "repository": "https://github.com/nandanna1r/problem-set-ta",
+  "license": "MIT",
+  "keywords": [
+    "education",
+    "problem-sets",
+    "statistics",
+    "linear-algebra",
+    "finance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Problem-Set TA",
+    "shortDescription": "Source-grounded help for quantitative coursework",
+    "longDescription": "A plainspoken office-hours assistant with Socratic assist mode and direct answer mode for probability, statistics, linear algebra, and quantitative finance.",
+    "developerName": "nandanna1r",
+    "category": "Education",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Initialize Problem-Set TA for my course.",
+      "Use assist mode to help with this problem.",
+      "Use answer mode and show the full solution."
+    ]
+  }
+}
