@@ -1,6 +1,6 @@
 {
   "name": "problem-set-ta",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A source-grounded office-hours TA for quantitative problem sets.",
   "author": {
     "name": "nandanna1r",
@@ -20,7 +20,7 @@
   "interface": {
     "displayName": "Problem-Set TA",
     "shortDescription": "Source-grounded help for quantitative coursework",
-    "longDescription": "A plainspoken office-hours assistant with Socratic assist mode and direct answer mode for probability, statistics, linear algebra, and quantitative finance.",
+    "longDescription": "A plainspoken office-hours assistant with backward target planning, Socratic assist mode, and direct answer mode for probability, statistics, linear algebra, and quantitative finance.",
     "developerName": "nandanna1r",
     "category": "Education",
     "capabilities": [

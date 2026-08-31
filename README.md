@@ -11,6 +11,8 @@ Problem-Set TA supports two explicit modes:
 
 The skill is designed for probability and statistics, statistical inference, linear algebra, and quantitative finance. It prefers the student's course materials, then a named textbook, then cited web sources. Its tone is concise and specific: no praise padding or generic chatbot preamble.
 
+For proofs, identities, derivations, and requested target forms, it plans backward from the goal. If asked to prove `A = BC` and the product is the useful side, it starts from `BC` and derives `A`, while keeping every presented step logically valid.
+
 ## Quick start
 
 1. Install the skill for your AI tool using one of the options below.
